@@ -10,8 +10,6 @@ BLOCK="<div style=\"audioblock\">
 "
 
 for file in samples/summerlakes_park/*
-do
-    #whatever you need with "$file"
-    
+do  
     echo "${BLOCK//FILENAME/$file}"  >> samplehtml.txt
 done
