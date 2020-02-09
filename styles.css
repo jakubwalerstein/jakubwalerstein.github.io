@@ -4,12 +4,17 @@
   	src: url('./fonts/quicksand.ttf');
 }
 
+h1 {
+	font-size: 50px;
+	margin: 43px;
+}
 
 body {
   background-image: url('./images/background_sun.jpg');
   b
   background-attachment: scroll;
   background-size: cover;
+  /*background-repeat: no-repeat;*/
   height: 100%;
   font-family: quicksand;
 }
@@ -42,7 +47,14 @@ audio {
   transform: scale(1.05);
 }
 
-.notes {
+.albumnotes {
+	display: block;
+	background-color: #E9D9D9;
+	margin: 30px;
+	border: 30px;
+}
+
+.songnotes {
 	display: block;
 	background-color: #E9D9D9;
 	margin: 30px;
@@ -53,6 +65,7 @@ audio {
 .caret {
   cursor: pointer;
   user-select: none; /* Prevent text selection */
+
 }
 
 /* Create the caret/arrow with a unicode, and style it */
@@ -66,11 +79,13 @@ audio {
 /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
 .caret-down::before {
   transform: rotate(90deg);
+
 }
 
 /* Hide the nested list */
 .nested {
   display: none;
+  list-style-type: none;
 }
 
 /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
