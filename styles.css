@@ -45,7 +45,7 @@ audio {
 	width: 250px; 
 	box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
 	border-radius: 90px;
-	background-color: white;
+	background-color: #F1F3F4;
 	transform: scale(1.05);
 	-webkit-transition:all 0.2s linear;
 	-moz-transition:all 0.2s linear;
