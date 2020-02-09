@@ -1,1 +1,5 @@
 .DS_Store
+htmlgen.sh
+old_index.html
+samplehtml.txt
+songgen.sh

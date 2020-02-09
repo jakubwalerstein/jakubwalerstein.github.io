@@ -1,9 +1,17 @@
+
+@font-face {
+  	font-family: 'quicksand';
+  	src: url('./fonts/quicksand.ttf');
+}
+
+
 body {
   background-image: url('./images/background_sun.jpg');
   b
   background-attachment: scroll;
   background-size: cover;
   height: 100%;
+  font-family: quicksand;
 }
 
 .grid-container {
@@ -20,10 +28,11 @@ body {
   text-align: left;
   padding: 10px 0;
   font-size: 10px;
+  font-family: quicksand;
 }
 
 .audioblock {
-
+	font-family: quicksand;
 }
 
 audio { 
@@ -60,4 +69,12 @@ audio {
 /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
 .active {
   display: block;
+}
+
+#copyright {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  opacity: 0.5;
+  font-size: 1vw;
 }
