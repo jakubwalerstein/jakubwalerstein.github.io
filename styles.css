@@ -14,6 +14,7 @@ body {
   b
   background-attachment: scroll;
   background-size: cover;
+  background-color: black;
   /*background-repeat: no-repeat;*/
   height: 100%;
   font-family: quicksand;
