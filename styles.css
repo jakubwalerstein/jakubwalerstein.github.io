@@ -32,7 +32,7 @@ body {
 .grid-container > div {
   /*background-color: rgba(255, 255, 255, 0.5);*/
   text-align: left;
-  padding: 10px 0;
+  padding: 10px 10px;
   font-size: 10px;
   font-family: quicksand;
 }
@@ -42,10 +42,31 @@ body {
 }
 
 audio { 
-  width: 250px; 
-  box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
-  border-radius: 90px;
-  transform: scale(1.05);
+	width: 250px; 
+	box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+	border-radius: 90px;
+	background-color: white;
+	transform: scale(1.05);
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-o-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+	-moz-box-shadow: 2px 2px 4px 0px black;
+	-webkit-box-shadow:  2px 2px 4px 0px black;
+	box-shadow: 2px 2px 4px 0px black;
+	-moz-border-radius:7px 7px 7px 7px ;
+	-webkit-border-radius:7px 7px 7px 7px ;
+	border-radius:7px 7px 7px 7px ;
+}
+
+audio:hover, audio:focus, audio:active
+{
+	-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .albumnotes {

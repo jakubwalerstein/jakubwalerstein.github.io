@@ -8,6 +8,10 @@
 </head>
 <h1>| jakub |</h1>
 <body>
+  <script>
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    const audioCtx = new AudioContext();
+  </script>
 
   <ul style="list-style-type:none;">
 
@@ -374,14 +378,6 @@
               Your browser does not support the audio element.
             </audio>
             ./songs/wbh/3_oshkosh_interlude.wav
-          </div>
-
-          <div style="audioblock">
-            <audio controls>
-              <source src="./songs/wbh/4_oshkosh.wav" type="audio/wav">
-              Your browser does not support the audio element.
-            </audio>
-            ./songs/wbh/4_oshkosh.wav
           </div>
 
           <div style="audioblock">
@@ -3181,6 +3177,7 @@
   </div>
 
   <script>
+
     var toggler = document.getElementsByClassName("caret");
     var i;
 
