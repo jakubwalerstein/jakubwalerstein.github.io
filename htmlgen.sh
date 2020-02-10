@@ -1,15 +1,15 @@
 #!/bin/sh
 
-BLOCK="<div style=\"audioblock\">
-        <audio controls>
-          <source src=\"./FILENAME\" type=\"audio/wav\">
+URL="<div style=\"audioblock\">
+        <audio loop controls preload="none">
+          <source src=\"https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/FILENAME?raw=true\" type=\"audio/wav\">
           Your browser does not support the audio element.
         </audio>
-        ./FILENAME
+        FILENAME
       </div>
 "
 
-for file in samples/summerlakes_park/*
+for file in loops/*
 do  
-    echo "${BLOCK//FILENAME/$file}"  >> samplehtml.txt
+	echo "${URL//FILENAME/$(basename "$file")}"  >> loophtml.txt
 done

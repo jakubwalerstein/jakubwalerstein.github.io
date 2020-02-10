@@ -1,232 +1,232 @@
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/antisocial_drums_84bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/antisocial_drums_84bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/antisocial_drums_84bpm.wav
+        antisocial_drums_84bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/bending_hums_82bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/bending_hums_82bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/bending_hums_82bpm.wav
+        bending_hums_82bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/blip_assault_112bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/blip_assault_112bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/blip_assault_112bpm.wav
+        blip_assault_112bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/blip_assault_120bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/blip_assault_120bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/blip_assault_120bpm.wav
+        blip_assault_120bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/bus_ride_guitar_88bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/bus_ride_guitar_88bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/bus_ride_guitar_88bpm.wav
+        bus_ride_guitar_88bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/chandelier_pad_91bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/chandelier_pad_91bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/chandelier_pad_91bpm.wav
+        chandelier_pad_91bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/chewy_synth_lead_112bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/chewy_synth_lead_112bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/chewy_synth_lead_112bpm.wav
+        chewy_synth_lead_112bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/clean_EP_arpeggio_96bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/clean_EP_arpeggio_96bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/clean_EP_arpeggio_96bpm.wav
+        clean_EP_arpeggio_96bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/crunchy_dream_synth_layers_103bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/crunchy_dream_synth_layers_103bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/crunchy_dream_synth_layers_103bpm.wav
+        crunchy_dream_synth_layers_103bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/crushed_dream_keys_75bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/crushed_dream_keys_75bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/crushed_dream_keys_75bpm.wav
+        crushed_dream_keys_75bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/crushed_dream_keys_94bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/crushed_dream_keys_94bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/crushed_dream_keys_94bpm.wav
+        crushed_dream_keys_94bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/distorted_fanfare_105bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/distorted_fanfare_105bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/distorted_fanfare_105bpm.wav
+        distorted_fanfare_105bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/epic_sax_fanfare_88bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/epic_sax_fanfare_88bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/epic_sax_fanfare_88bpm.wav
+        epic_sax_fanfare_88bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/evolution_keys_65bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/evolution_keys_65bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/evolution_keys_65bpm.wav
+        evolution_keys_65bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/fabulous_synth_hits_92bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/fabulous_synth_hits_92bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/fabulous_synth_hits_92bpm.wav
+        fabulous_synth_hits_92bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/inspired_synth_layers_65bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/inspired_synth_layers_65bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/inspired_synth_layers_65bpm.wav
+        inspired_synth_layers_65bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/lo-fi_piano_74bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/lo-fi_piano_74bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/lo-fi_piano_74bpm.wav
+        lo-fi_piano_74bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/lobby_guitar_120bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/lobby_guitar_120bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/lobby_guitar_120bpm.wav
+        lobby_guitar_120bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/motivated_groove_120bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/motivated_groove_120bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/motivated_groove_120bpm.wav
+        motivated_groove_120bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/oath_pad_120bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/oath_pad_120bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/oath_pad_120bpm.wav
+        oath_pad_120bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/ritual_drums_120bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/ritual_drums_120bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/ritual_drums_120bpm.wav
+        ritual_drums_120bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/starship_plucks_88bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/starship_plucks_88bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/starship_plucks_88bpm.wav
+        starship_plucks_88bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/stopwatch_groove_87bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/stopwatch_groove_87bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/stopwatch_groove_87bpm.wav
+        stopwatch_groove_87bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/swelling_synth_layers_114bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/swelling_synth_layers_114bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/swelling_synth_layers_114bpm.wav
+        swelling_synth_layers_114bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/syrup_pad_94bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/syrup_pad_94bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/syrup_pad_94bpm.wav
+        syrup_pad_94bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/trapped_drums_118bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/trapped_drums_118bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/trapped_drums_118bpm.wav
+        trapped_drums_118bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/victory_lap_synth_layers_120bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/victory_lap_synth_layers_120bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/victory_lap_synth_layers_120bpm.wav
+        victory_lap_synth_layers_120bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/violent_drums_78bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/violent_drums_78bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/violent_drums_78bpm.wav
+        violent_drums_78bpm.wav
       </div>
 
 <div style="audioblock">
-        <audio loop controls>
-          <source src="./loops/zen_groove_110bpm.wav" type="audio/wav">
+        <audio loop controls preload=none>
+          <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/loops/zen_groove_110bpm.wav?raw=true" type="audio/wav">
           Your browser does not support the audio element.
         </audio>
-        ./loops/zen_groove_110bpm.wav
+        zen_groove_110bpm.wav
       </div>
 
