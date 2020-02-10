@@ -11,7 +11,6 @@ h1 {
 
 body {
   background-image: url('./images/background_sun.jpg');
-  b
   background-attachment: scroll;
   background-size: cover;
   background-color: black;
@@ -83,17 +82,17 @@ audio:hover, audio:focus, audio:active
 
 .albumnotes {
 	display: block;
-	background-color: #E9D9D9;
-	margin: 30px;
-	border: 30px;
+	background-image: url('./images/paper.jpg');
+	background-size: cover;
+	padding: 30px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .songnotes {
 	display: block;
-	background-color: #E9D9D9;
-	margin: 30px;
-	border: 30px;
+	background-image: url('./images/paper.jpg');
+	background-size: cover;
+	padding: 30px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
