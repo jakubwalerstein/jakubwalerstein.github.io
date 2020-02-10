@@ -41,12 +41,16 @@ body {
   /*background-color: rgba(255, 255, 255, 0.5);*/
   text-align: left;
   padding: 10px 10px;
-  font-size: 10px;
+  font-size: 12px;
   font-family: quicksand;
+  color: white;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  text-shadow: 0px 0px 5px black, 1px 1px 1px black;
 }
 
 .audioblock {
 	font-family: quicksand;
+	
 }
 
 audio { 
@@ -82,6 +86,7 @@ audio:hover, audio:focus, audio:active
 	background-color: #E9D9D9;
 	margin: 30px;
 	border: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .songnotes {
@@ -89,6 +94,7 @@ audio:hover, audio:focus, audio:active
 	background-color: #E9D9D9;
 	margin: 30px;
 	border: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Style the caret/arrow */
