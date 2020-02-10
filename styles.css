@@ -20,6 +20,14 @@ body {
   font-family: quicksand;
 }
 
+#browser {
+	display: none;
+	margin: 12px;
+	left: 40px;
+	font-size: 14px;
+	font-style: italic;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
