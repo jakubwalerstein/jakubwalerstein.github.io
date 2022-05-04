@@ -20,6 +20,10 @@ h1 {
 	font-family: quicksand;
 }
 
+iframe {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 body {
   background-image: url('./images/background_sun.jpg');
   background-attachment: scroll;
@@ -29,6 +33,18 @@ body {
   height: 100%;
   font-family: quicksand;
   font-size: 24px;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+	    opacity: 0;
+	}
+	100% {
+	    opacity: 1;
+	}
 }
 
 #browser {
