@@ -17,7 +17,10 @@ a, a:hover, a:visited, a:active {
 h1 {
 	font-size: 70px;
 	margin: 40px;
-	font-family: quicksand;
+	/*font-family: quicksand;*/
+	font-family: rubrik-new, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
 }
 
 iframe {
@@ -31,7 +34,10 @@ body {
   background-color: black;
   /*background-repeat: no-repeat;*/
   height: 100%;
-  font-family: quicksand;
+  /*font-family: quicksand;*/
+  font-family: rubrik-new, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
   font-size: 24px;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -125,12 +131,12 @@ audio:hover, audio:focus, audio:active
 .caret {
   cursor: pointer;
   user-select: none; /* Prevent text selection */
-  background-image: url('./images/paper.jpg');
+  /*background-image: url('./images/paper.jpg');*/
   padding-top: 2px;
   padding-bottom: 2px;
   padding-right: 5px;
   padding-left: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 /* Create the caret/arrow with a unicode, and style it */
@@ -171,10 +177,32 @@ audio:hover, audio:focus, audio:active
 
 #videos
 {
-	margin-left: 40px
+	padding-left: 40px;
+	width: 100%;
 }
 
-.video
+#video1
 {
+	float: left;
+	width: 570px;
+}
 
+#video2
+{
+	margin-left: 570px;
+	padding-left: 10px;
+
+}
+
+.scrolling-wrapper 
+{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+.scrolling-wrapper .card 
+{
+    display: inline-block;
 }
