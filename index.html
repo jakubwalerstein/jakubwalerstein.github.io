@@ -5,18 +5,17 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 </head>
 <h1><a href="https://linktr.ee/jakub_domine">| jakub walerstein |</a></h1>
 <body>
 
   <div id="videos">
     <div class="scrolling-wrapper">
-    <div id="video1">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/epzHHMWK3jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div id="video2">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/AdF5BBLDelw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5NdPABMml2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/epzHHMWK3jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 
@@ -24,114 +23,183 @@
   <ul style="list-style-type:none;">
 
     <li>
-
-    <span class="caret">selected songs</span>
-    <ul class="nested">
-        <br>
-        <li>
-        <span class="caret" onclick="loadBcapSongs()">BRUNCH CAPTAIN (2020)</span>
-        <ul id="bcapSongsUL" class="nested">
-
-          <div id="bcapSongsGrid" class="grid-container"></div>
+      <span class="caret">selected songs</span>
+      <ul class="nested">
+          <br>
 
           <li>
-            <div class="notes">
+            <span class="caret" onclick="loadFullSongs()">full songs</span>
+            <ul id="fullSongsUL" class="nested">
 
-              This is the debut EP of my band Brunch Captain! Find our socials <a href=https://linktr.ee/brunch_captain style="color:#0000FF">here</a>. <br /> 
+              <div id="fullSongsGrid" class="grid-container"></div>
 
-            </div>
-            <br />
+              <li>
+                <div class="notes">
+
+                  This is a selection of recent unreleased tracks that I feel fairly represents my music production style. <br /> 
+
+                </div>
+                <br />
+              </li>
+
+            </ul>
           </li>
-
-        </ul>
-        </li>
-
-        <li>
-        <span class="caret" onclick="loadDomineSongs()">Jakub Dominé (2020)</span>
-        <ul id="domineSongsUL" class="nested">
-
-          <div id="domineSongsGrid" class="grid-container"></div>
 
           <li>
-            <div class="notes">
+            <span class="caret" onclick="loadShortSongs()">short songs & beats</span>
+            <ul id="shortSongsUL" class="nested">
 
-              This EP was commissioned by Discord, Inc. for a curated lo-fi hip hop playlist, and was released in May 2020. Per the conditions of the project, this EP contains no external samples other than kicks and snares from open source sample libraries. All other sounds are sourced from my own instrumental performance and field recording. Creating that old school lo-fi sampled texture using no outside source material was an enjoyable challenge in sound design. Find my socials <a href=https://linktr.ee/jakub_domine style="color:#0000FF">here</a>! <br /> 
+              <div id="shortSongsGrid" class="grid-container"></div>
 
-            </div>
-            <br />
+              <li>
+                <div class="notes">
+
+                  Short songs <br /> 
+
+                </div>
+                <br />
+              </li>
+
+            </ul>
           </li>
-        </ul>
-        </li>
-        <br>
-    </ul>
-
-
-    <li>
-    <span class="caret">selected loops</span>
-    <ul class="nested">
-      <br />
-      <div class="notes"> 
-        These loops are designed to be combined, layered, and edited to become part of a complete song. They range through many different levels of complexity, tempos, styles, keys, and instruments. A subset of them actually include sounds from the sample packs below. They are organized into the following four categories for your browsing convenience. 
-
-      </div>
-
-      <li>
-      <br /> 
-      <span class="caret" onclick="loadDrumsLoops()">Drums</span>
-        <ul id="drumsLoopsUL" class="nested">
-          <div id="drumsLoopsGrid" class="grid-container"></div>
-        </ul>
-      </li>
-
-      <li>
-      <span class="caret" onclick="loadGroovesLoops()">Grooves</span>
-        <ul id="groovesLoopsUL" class="nested">
-          <div id="groovesLoopsGrid" class="grid-container"></div>
-        </ul>
-      </li>
-
-      <li>
-      <span class="caret" onclick="loadOrganicLoops()">Organic</span>
-        <ul id="organicLoopsUL" class="nested">
-          <div id="organicLoopsGrid" class="grid-container"></div>
-        </ul>
-      </li>
-
-      <li>
-      <span class="caret" onclick="loadSynthLoops()">Synth</span>
-        <ul id="synthLoopsUL" class="nested">
-          <div id="synthLoopsGrid" class="grid-container"></div>
-        </ul>
-
-      </li>
-
-
-      <br /> 
-    </ul>
+          <br>
+      </ul>
     </li>
 
     <li>
-    <span class="caret">selected sample packs</span>
-    <ul class="nested">
+      <span style="font-size: 24px" class="caret">samples and sound design</span>
+      <ul class="nested">
+          <br>
+
+          <li>
+            <span class="caret" onclick="loadAmbienceClips()">ambience & textures</span>
+            <ul id="ambienceClipsUL" class="nested">
+              <br>
+              <div class="notes"> 
+                ambience & textures
+              </div>
+              <br>
+              <div id="ambienceClipsGrid" class="grid-container"></div>
+
+            </ul>
+          </li>
+
+          <li>
+            <span class="caret" onclick="loadCS10Clips()">amplified yamaha CS10</span>
+            <ul id="cs10ClipsUL" class="nested">
+              <br>
+              <div class="notes"> 
+                CS10
+              </div>
+              <br>
+              <div id="cs10ClipsGrid" class="grid-container"></div>
+
+            </ul>
+          </li>
+
+          <li>
+            <span class="caret" onclick="loadDrumClips()">drum kit recordings</span>
+            <ul id="drumClipsUL" class="nested">
+              <br>
+              <div class="notes"> 
+                drums
+              </div>
+              <br>
+              <div id="drumClipsGrid" class="grid-container"></div>
+
+            </ul>
+          </li>
+
+          <li>
+            <span class="caret" onclick="loadPianoStringsClips()">piano strings</span>
+            <ul id="pianoStringsClipsUL" class="nested">
+              <br>
+              <div class="notes"> 
+                These sounds come from a recording session focused on a 5'7" Yamaha G2 baby grand piano in Carmel, IN. The most notable sounds in this pack are the decays, which were created by playings horns (saxophone, traditional shofar) into the body of the piano while the sustain pedal was held. This allowed the piano strings to resonate with the horn, creating an overtone-rich decay. These sounds were recorded using a mid-side microphone configuration. 
+              </div>
+              <br>
+              <div id="pianoStringsClipsGrid" class="grid-container"></div>
+
+            </ul>
+          </li>
+
+          <li>
+            <span class="caret" onclick="loadTapeClips()">tape experiments</span>
+            <ul id="tapeClipsUL" class="nested">
+              <br>
+              <div class="notes"> 
+                tape
+              </div>
+              <br>
+              <div id="tapeClipsGrid" class="grid-container"></div>
+
+            </ul>
+          </li>
+
+          <li>
+            <span class="caret" onclick="loadSynthClips()">digital synth loops 2017-2019</span>
+            <ul id="synthClipsUL" class="nested">
+              <br>
+              <div class="notes"> 
+                synth loops
+              </div>
+              <br>
+              <div id="synthClipsGrid" class="grid-container"></div>
+
+            </ul>
+          </li>
+
+          <br>
+      </ul>
+    </li>  
+
+    <li>
+      <span style="font-size: 24px" class="caret">released music</span>
+      <ul class="nested">
         <br>
+
         <li>
-          <span class="caret" onclick="loadJakubsHouseSamples()">Jakub's House Samples</span>
-          <ul id="jakubsHouseSamplesUL" class="nested">
-            <br>
-            <div class="notes"> 
-              These sounds came from a recording session at my house in Carmel, IN. The most notable sounds in this pack are the decays, which were created by playings horns (saxophone, traditional shofar) into the body of a piano while the sustain pedal was held. This allowed the piano strings to resonate with the horn, creating an overtone-rich decay. These sounds were recorded using a mid-side microphone configuration. 
-            </div>
-            <br>
-            <div id="jakubsHouseSamplesGrid" class="grid-container"></div>
+          <span class="caret" onclick="loadBcapSongs()">BRUNCH CAPTAIN (2020)</span>
+          <ul id="bcapSongsUL" class="nested">
+
+            <div id="bcapSongsGrid" class="grid-container"></div>
+
+            <li>
+              <div class="notes">
+
+                This is the debut EP of my band Brunch Captain! Find our socials <a href=https://linktr.ee/brunch_captain style="color:#0000FF">here</a>. <br /> 
+
+              </div>
+              <br />
+            </li>
+
+          </ul>
+        </li>
+
+        <li>
+          <span class="caret" onclick="loadDomineSongs()">Jakub Dominé (2020)</span>
+          <ul id="domineSongsUL" class="nested">
+
+            <div id="domineSongsGrid" class="grid-container"></div>
+
+            <li>
+              <div class="notes">
+
+                This EP was commissioned by Discord, Inc. for a curated lo-fi hip hop playlist, and was released in May 2020. Per the conditions of the project, this EP contains no external samples other than kicks and snares from open source sample libraries. All other sounds are sourced from my own instrumental performance and field recording. Creating that old school lo-fi sampled texture using no outside source material was an enjoyable challenge in sound design. Find my socials <a href=https://linktr.ee/jakub_domine style="color:#0000FF">here</a>! <br /> 
+
+              </div>
+              <br />
+            </li>
 
           </ul>
         </li>
         <br>
-    </ul>
-    </li>  
+      </ul>
+    </li>
+
+
   </ul>
-  </li>
-  </ul>
+
 </div>
 
   <div id="copyright"></div>
@@ -152,8 +220,80 @@
       });
     }
 
+    function loadFullSongs() {
+      var fullSongsFilenames = ["audio/songs/full_songs/disaster!.wav","audio/songs/full_songs/mechanism.wav","audio/songs/full_songs/where_would_we_be.wav"];
+
+      if (!document.querySelector("#fullSongsUL").classList.contains("active")) {
+        //section is hidden
+        songLoader(fullSongsFilenames,"#fullSongsGrid")
+      }
+    }
+
+    function loadShortSongs() {
+      var shortSongsFilenames = ["audio/songs/short_songs_&_beats/a_portal_opens.wav","audio/songs/short_songs_&_beats/effort.wav","audio/songs/short_songs_&_beats/oh_my_god.wav","audio/songs/short_songs_&_beats/solarsystem.wav","audio/songs/short_songs_&_beats/stumble_stumble.wav"];
+
+      if (!document.querySelector("#shortSongsUL").classList.contains("active")) {
+        //section is hidden
+        songLoader(shortSongsFilenames,"#shortSongsGrid")
+      }
+    }
+
+    function loadAmbienceClips() {
+      var ambienceClipsFilenames = ["audio/samples_&_clips/ambience_&_textures/bouncyboy.wav","audio/samples_&_clips/ambience_&_textures/death.wav","audio/samples_&_clips/ambience_&_textures/hub_world.wav","audio/samples_&_clips/ambience_&_textures/time_thief.wav","audio/samples_&_clips/ambience_&_textures/wavy_guitarpad.wav"];
+
+      if (!document.querySelector("#ambienceClipsUL").classList.contains("active")) {
+        //section is hidden
+        songLoader(ambienceClipsFilenames,"#ambienceClipsGrid")
+      }
+    }
+
+    function loadCS10Clips() {
+      var cs10ClipsFilenames = ["audio/samples_&_clips/amplified_yamaha_CS10/feedback_whale_call_1.wav","audio/samples_&_clips/amplified_yamaha_CS10/feedback_whale_call_2.wav","audio/samples_&_clips/amplified_yamaha_CS10/feedback_whale_call_3.wav","audio/samples_&_clips/amplified_yamaha_CS10/feedback_whale_call_4.wav","audio/samples_&_clips/amplified_yamaha_CS10/feedback_whale_call_5.wav","audio/samples_&_clips/amplified_yamaha_CS10/feedback_whale_call_6.wav","audio/samples_&_clips/amplified_yamaha_CS10/feedback_whale_call_7.wav","audio/samples_&_clips/amplified_yamaha_CS10/digital_punch_1.wav","audio/samples_&_clips/amplified_yamaha_CS10/digital_punch_2.wav","audio/samples_&_clips/amplified_yamaha_CS10/distress_one_shot.wav","audio/samples_&_clips/amplified_yamaha_CS10/distress_signal.wav","audio/samples_&_clips/amplified_yamaha_CS10/distress_signal_2.wav"];
+
+      if (!document.querySelector("#cs10ClipsUL").classList.contains("active")) {
+        //section is hidden
+        songLoader(cs10ClipsFilenames,"#cs10ClipsGrid")
+      }
+    }
+
+    function loadDrumClips() {
+      var drumClipsFilenames = ["audio/samples_&_clips/drum_kit_recordings/downtempo_beat_10.wav","audio/samples_&_clips/drum_kit_recordings/downtempo_beat_11.wav","audio/samples_&_clips/drum_kit_recordings/downtempo_beat_13.wav","audio/samples_&_clips/drum_kit_recordings/downtempo_beat_16.wav","audio/samples_&_clips/drum_kit_recordings/downtempo_beat_2.wav","audio/samples_&_clips/drum_kit_recordings/drum_fill_2.wav","audio/samples_&_clips/drum_kit_recordings/drum_fill_4.wav","audio/samples_&_clips/drum_kit_recordings/fast_break_1.wav","audio/samples_&_clips/drum_kit_recordings/fast_break_3.wav","audio/samples_&_clips/drum_kit_recordings/fast_break_4.wav","audio/samples_&_clips/drum_kit_recordings/fast_break_7.wav"];
+
+      if (!document.querySelector("#drumClipsUL").classList.contains("active")) {
+        //section is hidden
+        songLoader(drumClipsFilenames,"#drumClipsGrid")
+      }
+    }
+
+    function loadPianoStringsClips() {
+      var pianoStringsClipsFilenames = ["audio/samples_&_clips/piano_strings/piano_playing_1.wav","audio/samples_&_clips/piano_strings/piano_playing_2.wav","audio/samples_&_clips/piano_strings/piano_string_bounce_1.wav","audio/samples_&_clips/piano_strings/piano_string_bounce_2.wav","audio/samples_&_clips/piano_strings/piano_string_bounce_3.wav","audio/samples_&_clips/piano_strings/piano_string_bounce_4.wav","audio/samples_&_clips/piano_strings/piano_string_bounce_5.wav","audio/samples_&_clips/piano_strings/piano_string_bounce_6.wav","audio/samples_&_clips/piano_strings/piano_string_bounce_7.wav","audio/samples_&_clips/piano_strings/piano_string_strike_1.wav","audio/samples_&_clips/piano_strings/piano_string_strike_2.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_1.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_10.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_11.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_12.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_13.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_14.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_15.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_16.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_17.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_18.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_19.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_2.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_20.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_21.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_3.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_4.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_5.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_6.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_7.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_8.wav","audio/samples_&_clips/piano_strings/sax_piano_sustain_9.wav","audio/samples_&_clips/piano_strings/shofar_piano_sustain_1.wav","audio/samples_&_clips/piano_strings/shofar_piano_sustain_2.wav","audio/samples_&_clips/piano_strings/shofar_piano_sustain_3.wav","audio/samples_&_clips/piano_strings/shofar_piano_sustain_4.wav","audio/samples_&_clips/piano_strings/shofar_piano_sustain_5.wav"];
+
+      if (!document.querySelector("#pianoStringsClipsUL").classList.contains("active")) {
+        //section is hidden
+        songLoader(pianoStringsClipsFilenames,"#pianoStringsClipsGrid")
+      }
+    }
+
+    function loadTapeClips() {
+      var tapeClipsFilenames = ["audio/samples_&_clips/tape_experiments/aquarium_piano_(VHS_tape).wav","audio/samples_&_clips/tape_experiments/cassette_tenor_casio_pad_(cassette).wav","audio/samples_&_clips/tape_experiments/cassette_tenor_casio_pad_7_(cassette).wav","audio/samples_&_clips/tape_experiments/hope_(VHS_tape).wav","audio/samples_&_clips/tape_experiments/solarsystem_(VHS_tape).wav","audio/samples_&_clips/tape_experiments/tenor_casio_pad_6_(cassette).wav","audio/samples_&_clips/tape_experiments/tenorgroove_(VHS_tape).wav"];
+
+      if (!document.querySelector("#tapeClipsUL").classList.contains("active")) {
+        //section is hidden
+        songLoader(tapeClipsFilenames,"#tapeClipsGrid")
+      }
+    }
+
+    function loadSynthClips() {
+      var synthClipsFilenames = ["audio/samples_&_clips/synth_loops_2017-2019/bending_hums_82bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/blip_assault_112bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/blip_assault_120bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/chandelier_pad_91bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/chewy_synth_lead_112bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/crunchy_dream_synth_layers_103bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/crushed_dream_keys_75bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/crushed_dream_keys_94bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/distorted_fanfare_105bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/evolution_keys_65bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/fabulous_synth_hits_92bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/inspired_synth_layers_65bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/oath_pad_120bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/starship_plucks_88bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/swelling_synth_layers_114bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/syrup_pad_94bpm.wav","audio/samples_&_clips/synth_loops_2017-2019/victory_lap_synth_layers_120bpm.wav"];
+
+      if (!document.querySelector("#synthClipsUL").classList.contains("active")) {
+        //section is hidden
+        songLoader(synthClipsFilenames,"#synthClipsGrid")
+      }
+    }
+
     function loadBcapSongs() {
-      var bcapSongsFilenames = ["songs/bcap/1_1-(800)-888-8888.wav","songs/bcap/2_Monsters.wav","songs/bcap/3_Susan.wav","songs/bcap/4_Memento_Mori.wav","songs/bcap/5_100_Broad_Hollow_Rd.wav","songs/bcap/6_Canopy_Anatta.wav"];
+      var bcapSongsFilenames = ["audio/released_music/bcap/1-(800)-888-8888.wav","audio/released_music/bcap/monsters.wav","audio/released_music/bcap/susan.wav","audio/released_music/bcap/memento_mori.wav","audio/released_music/bcap/100_broad_hollow_rd.wav","audio/released_music/bcap/canopy_anatta.wav"];
 
       if (!document.querySelector("#bcapSongsUL").classList.contains("active")) {
         //section is hidden
@@ -162,56 +302,11 @@
     }
 
     function loadDomineSongs() {
-      var domineSongsFilenames = ["songs/domine/childhood_home.wav","songs/domine/commute.wav","songs/domine/dusk.wav","songs/domine/untouchable.wav","songs/domine/willow.wav"];
+      var domineSongsFilenames = ["audio/released_music/domine/childhood_home.wav","audio/released_music/domine/commute.wav","audio/released_music/domine/dusk.wav","audio/released_music/domine/untouchable.wav","audio/released_music/domine/willow.wav"];
 
       if (!document.querySelector("#domineSongsUL").classList.contains("active")) {
         //section is hidden
         songLoader(domineSongsFilenames,"#domineSongsGrid")
-      }
-    }
-
-    function loadDrumsLoops() {
-      var drumsLoopsFilenames = ["loops/drums/antisocial_drums_84bpm.wav","loops/drums/baltimore_drums_90bpm.wav","loops/drums/boil_over_drums_118bpm.wav","loops/drums/cajuna_drums_87bpm.wav","loops/drums/cold_brew_drums_97bpm.wav","loops/drums/evergreen_drums_92bpm.wav","loops/drums/footwork_drums_70bpm.wav","loops/drums/goose_drums_76bpm.wav","loops/drums/greysky_drums_90bpm.wav","loops/drums/heartwing_drums_103bpm.wav","loops/drums/ritual_drums_120bpm.wav","loops/drums/shooba_drums_105bpm.wav","loops/drums/trapped_drums_118bpm.wav","loops/drums/violent_drums_78bpm.wav","loops/drums/woodmetal_drums_88bpm.wav"];
-
-      if (!document.querySelector("#drumsLoopsUL").classList.contains("active")) {
-        //section is hidden
-        songLoader(drumsLoopsFilenames,"#drumsLoopsGrid")
-      }
-    }
-
-    function loadGroovesLoops() {
-      var groovesLoopsFilenames = ["loops/grooves/baltimore_groove_90bpm.wav","loops/grooves/chevelle_groove_90bpm.wav","loops/grooves/decay_groove_89bpm.wav","loops/grooves/filesarray.txt","loops/grooves/ice_storm_groove_67bpm.wav","loops/grooves/motivated_groove_120bpm.wav","loops/grooves/stopwatch_groove_87bpm.wav","loops/grooves/zen_groove_110bpm.wav"];
-
-      if (!document.querySelector("#groovesLoopsUL").classList.contains("active")) {
-        //section is hidden
-        songLoader(groovesLoopsFilenames,"#groovesLoopsGrid")
-      }
-    }
-
-    function loadOrganicLoops() {
-      var organicLoopsFilenames = ["loops/organic/bus_ride_guitar_88bpm.wav","loops/organic/clean_EP_arpeggio_96bpm.wav","loops/organic/epic_sax_fanfare_88bpm.wav","loops/organic/lo-fi_piano_74bpm.wav","loops/organic/lobby_guitar_120bpm.wav"];
-
-      if (!document.querySelector("#organicLoopsUL").classList.contains("active")) {
-        //section is hidden
-        songLoader(organicLoopsFilenames,"#organicLoopsGrid")
-      }
-    }
-
-    function loadSynthLoops() {
-      var synthLoopsFilenames = ["loops/synth/bending_hums_82bpm.wav","loops/synth/blip_assault_112bpm.wav","loops/synth/blip_assault_120bpm.wav","loops/synth/chandelier_pad_91bpm.wav","loops/synth/chewy_synth_lead_112bpm.wav","loops/synth/crunchy_dream_synth_layers_103bpm.wav","loops/synth/crushed_dream_keys_75bpm.wav","loops/synth/crushed_dream_keys_94bpm.wav","loops/synth/distorted_fanfare_105bpm.wav","loops/synth/evolution_keys_65bpm.wav","loops/synth/fabulous_synth_hits_92bpm.wav","loops/synth/inspired_synth_layers_65bpm.wav","loops/synth/oath_pad_120bpm.wav","loops/synth/starship_plucks_88bpm.wav","loops/synth/swelling_synth_layers_114bpm.wav","loops/synth/syrup_pad_94bpm.wav","loops/synth/victory_lap_synth_layers_120bpm.wav"];
-
-      if (!document.querySelector("#synthLoopsUL").classList.contains("active")) {
-        //section is hidden
-        songLoader(synthLoopsFilenames,"#synthLoopsGrid")
-      }
-    }
-
-    function loadJakubsHouseSamples() {
-      var jakubsHouseSamplesFilenames = ["samples/jakubs_house/blips.wav","samples/jakubs_house/blips2.wav","samples/jakubs_house/blips3.wav","samples/jakubs_house/blips4.wav","samples/jakubs_house/blips5.wav","samples/jakubs_house/blips6.wav","samples/jakubs_house/piano.wav","samples/jakubs_house/piano2.wav","samples/jakubs_house/piano_strike.wav","samples/jakubs_house/sax_decay.wav","samples/jakubs_house/sax_decay10.wav","samples/jakubs_house/sax_decay11.wav","samples/jakubs_house/sax_decay12.wav","samples/jakubs_house/sax_decay13.wav","samples/jakubs_house/sax_decay14.wav","samples/jakubs_house/sax_decay15.wav","samples/jakubs_house/sax_decay16.wav","samples/jakubs_house/sax_decay17.wav","samples/jakubs_house/sax_decay18.wav","samples/jakubs_house/sax_decay19.wav","samples/jakubs_house/sax_decay2.wav","samples/jakubs_house/sax_decay20.wav","samples/jakubs_house/sax_decay21.wav","samples/jakubs_house/sax_decay3.wav","samples/jakubs_house/sax_decay4.wav","samples/jakubs_house/sax_decay5.wav","samples/jakubs_house/sax_decay6.wav","samples/jakubs_house/sax_decay7.wav","samples/jakubs_house/sax_decay8.wav","samples/jakubs_house/sax_decay9.wav","samples/jakubs_house/shofar_decay.wav","samples/jakubs_house/shofar_decay2.wav","samples/jakubs_house/shofar_decay3.wav","samples/jakubs_house/shofar_decay4.wav","samples/jakubs_house/shofar_decay5.wav","samples/jakubs_house/string_brush.wav","samples/jakubs_house/string_hits.wav"];
-
-      if (!document.querySelector("#jakubsHouseSamplesUL").classList.contains("active")) {
-        //section is hidden
-        songLoader(jakubsHouseSamplesFilenames,"#jakubsHouseSamplesGrid")
       }
     }
 
@@ -228,7 +323,7 @@
                               <source src="https://github.com/jakubwalerstein/jakubwalerstein.github.io/blob/master/${filepaths[filepath]}?raw=true" type="audio/wav">
                               Your browser does not support the audio element.
                             </audio>
-                            ${filename}
+                            <div class="audioTitle">${filename}</div>
                           </div>`
         }
         document.querySelector(gridClassString).innerHTML = outputHTML;

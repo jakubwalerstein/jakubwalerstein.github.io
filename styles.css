@@ -53,15 +53,6 @@ body {
 	}
 }
 
-#browser {
-	display: none;
-	margin: 12px;
-	position: relative;
-	left: 25px;
-	font-size: 14px;
-	font-style: italic;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -85,7 +76,10 @@ body {
 
 .audioblock {
 	font-family: quicksand;
-	
+}
+
+.audioTitle {
+	font-size: 18px;
 }
 
 audio { 
@@ -131,13 +125,15 @@ audio:hover, audio:focus, audio:active
 .caret {
   cursor: pointer;
   user-select: none; /* Prevent text selection */
-  /*background-image: url('./images/paper.jpg');*/
-  padding-top: 2px;
-  padding-bottom: 2px;
+  background-image: url('./images/paper.jpg');
+  padding-top: 1px;
+  padding-bottom: 1px;
   padding-right: 5px;
   padding-left: 5px;
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  border-radius: 5px;
+  box-shadow: 0 4px 20px 0 #D5C6C5;
 }
+
 
 /* Create the caret/arrow with a unicode, and style it */
 .caret::before {
@@ -145,6 +141,7 @@ audio:hover, audio:focus, audio:active
   color: black;
   display: inline-block;
   margin-right: 6px;
+  /*font-family: 'Segoe UI Symbol';*/
 }
 
 /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
@@ -172,26 +169,13 @@ audio:hover, audio:focus, audio:active
 }
 
 .inTextLink {
-	color: hotpink;
+	color: blue;
 }
 
 #videos
 {
 	padding-left: 40px;
 	width: 100%;
-}
-
-#video1
-{
-	float: left;
-	width: 570px;
-}
-
-#video2
-{
-	margin-left: 570px;
-	padding-left: 10px;
-
 }
 
 .scrolling-wrapper 
