@@ -36,7 +36,7 @@
               <li>
                 <div class="notes">
 
-                  This is a selection of recent unreleased tracks that I feel fairly represents my music production style. <br /> 
+                  This is a selection of recently completed unreleased tracks that I feel fairly represents my music production style. Disaster! is an alternative R&B track with drum and bass influences, while Mechanism and Where Would We Be are lo-fi house tracks. All recording, production, mixing, and mastering by me.<br /> 
 
                 </div>
                 <br />
@@ -54,7 +54,7 @@
               <li>
                 <div class="notes">
 
-                  Short songs <br /> 
+                  This is a selection of unreleased song clips and beats that I feel fairly represents my music production style. They represent a wider range of styles than the full songs section above. All recording, production, mixing, and mastering by me.<br /> 
 
                 </div>
                 <br />
@@ -67,16 +67,29 @@
     </li>
 
     <li>
-      <span style="font-size: 24px" class="caret">samples and sound design</span>
+      <span class="caret">samples and sound design</span>
       <ul class="nested">
           <br>
+
+          <li>
+            <span class="caret" onclick="loadTapeClips()">tape experiments</span>
+            <ul id="tapeClipsUL" class="nested">
+              <br>
+              <div class="notes"> 
+                The recordings labed (VHS tape) were created by recording sounds to VHS cassettes using a JVC DR-MV7 VCR, then physically manipulating the tape as it moved through the record and playback heads to create pitch warble, noise, and dropouts. Those labeled (cassette) include samples that were recorded to standard cassette tapes for subtle saturation and pitch warble. 
+              </div>
+              <br>
+              <div id="tapeClipsGrid" class="grid-container"></div>
+
+            </ul>
+          </li>
 
           <li>
             <span class="caret" onclick="loadAmbienceClips()">ambience & textures</span>
             <ul id="ambienceClipsUL" class="nested">
               <br>
               <div class="notes"> 
-                ambience & textures
+                The ambience & textures section consists of experiments in textural sound design. Tools used include analog synthesizers, heavily processed field recordings, and electric guitar. 
               </div>
               <br>
               <div id="ambienceClipsGrid" class="grid-container"></div>
@@ -89,7 +102,7 @@
             <ul id="cs10ClipsUL" class="nested">
               <br>
               <div class="notes"> 
-                CS10
+                These are unprocessed recordings of a Yamaha CS10 monophonic analog synthesizer at the Apple Music Creation Apps Cupertino Studio. The sounds here make use of a feedback loop created by routing the output of the CS10 back into its external input. The CS10 was played and recorded through a mic'd guitar amp. 
               </div>
               <br>
               <div id="cs10ClipsGrid" class="grid-container"></div>
@@ -102,7 +115,7 @@
             <ul id="drumClipsUL" class="nested">
               <br>
               <div class="notes"> 
-                drums
+                These drum beats and breaks are intended to demonstrate an effective drum microphone configuration. They were recorded at the IUPUI CLEAR Lab recording studio, using a 7-microphone Sennheiser evolution drum microphone kit. Outside of phase adjustment, there is no processing on the signal. The particularly fat snare sound was captured by placing two microphones on the snare, one above pointing down at head and one below pointing up at the snare wires, and then inverting the phase of the signal from the lower microphone. 
               </div>
               <br>
               <div id="drumClipsGrid" class="grid-container"></div>
@@ -124,24 +137,11 @@
           </li>
 
           <li>
-            <span class="caret" onclick="loadTapeClips()">tape experiments</span>
-            <ul id="tapeClipsUL" class="nested">
-              <br>
-              <div class="notes"> 
-                tape
-              </div>
-              <br>
-              <div id="tapeClipsGrid" class="grid-container"></div>
-
-            </ul>
-          </li>
-
-          <li>
-            <span class="caret" onclick="loadSynthClips()">digital synth loops 2017-2019</span>
+            <span class="caret" onclick="loadSynthClips()">digital synth loops 2018-2019</span>
             <ul id="synthClipsUL" class="nested">
               <br>
               <div class="notes"> 
-                synth loops
+                These loops were created as a sample pack to be distributed to new members of the Purdue Music Production Club. They were created with digital synthesizer plug-ins over the span of the 2018-2019 academic year. 
               </div>
               <br>
               <div id="synthClipsGrid" class="grid-container"></div>
@@ -154,7 +154,7 @@
     </li>  
 
     <li>
-      <span style="font-size: 24px" class="caret">released music</span>
+      <span class="caret">released music</span>
       <ul class="nested">
         <br>
 
@@ -275,7 +275,7 @@
     }
 
     function loadTapeClips() {
-      var tapeClipsFilenames = ["audio/samples_&_clips/tape_experiments/aquarium_piano_(VHS_tape).wav","audio/samples_&_clips/tape_experiments/cassette_tenor_casio_pad_(cassette).wav","audio/samples_&_clips/tape_experiments/cassette_tenor_casio_pad_7_(cassette).wav","audio/samples_&_clips/tape_experiments/hope_(VHS_tape).wav","audio/samples_&_clips/tape_experiments/solarsystem_(VHS_tape).wav","audio/samples_&_clips/tape_experiments/tenor_casio_pad_6_(cassette).wav","audio/samples_&_clips/tape_experiments/tenorgroove_(VHS_tape).wav"];
+      var tapeClipsFilenames = ["audio/samples_&_clips/tape_experiments/aquarium_piano_(VHS_tape).wav","audio/samples_&_clips/tape_experiments/hope_(VHS_tape).wav","audio/samples_&_clips/tape_experiments/solarsystem_(VHS_tape).wav","audio/samples_&_clips/tape_experiments/tenor_casio_pad_(cassette).wav","audio/samples_&_clips/tape_experiments/tenor_casio_pad_6_(cassette).wav","audio/samples_&_clips/tape_experiments/tenor_casio_pad_7_(cassette).wav","audio/samples_&_clips/tape_experiments/tenorgroove_(VHS_tape).wav"];
 
       if (!document.querySelector("#tapeClipsUL").classList.contains("active")) {
         //section is hidden
