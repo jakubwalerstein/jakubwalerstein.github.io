@@ -168,6 +168,16 @@ audio:hover, audio:focus, audio:active
   font-size: 0.5vw;
 }
 
+#contactInfo {
+	background-image: url('./images/paper2.jpg');
+	padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  width: 21%;
+}
+
 .inTextLink {
 	color: blue;
 }
