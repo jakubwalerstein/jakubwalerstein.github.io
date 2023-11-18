@@ -145,6 +145,24 @@
         <br>
 
         <li>
+          <span class="caret" onclick="loadCloseSong()">Close (2023)</span>
+          <ul id="closeSongUL" class="nested">
+
+            <div id="closeSongGrid" class="grid-container"></div>
+
+            <li>
+              <div class="notes">
+
+                Close is a bedroom pop & UK-Garage inspired single co-produced by Ari Jonathan and featuring vocals from Umami Bee. Stream it <a href=https://linktr.ee/jakub_domine style="color:#0000FF">here</a>! <br /> 
+
+              </div>
+              <br />
+            </li>
+
+          </ul>
+        </li>
+
+        <li>
           <span class="caret" onclick="loadBcapSongs()">BRUNCH CAPTAIN (2020)</span>
           <ul id="bcapSongsUL" class="nested">
 
@@ -302,6 +320,15 @@
       if (!document.querySelector("#synthClipsUL").classList.contains("active")) {
         //section is hidden
         songLoader(synthClipsFilenames,"#synthClipsGrid")
+      }
+    }
+
+    function loadCloseSong() {
+      var closeSongFilename = ["audio/released_music/close/close.wav"];
+
+      if (!document.querySelector("#closeSongUL").classList.contains("active")) {
+        //section is hidden
+        songLoader(closeSongFilename,"#closeSongGrid")
       }
     }
 
