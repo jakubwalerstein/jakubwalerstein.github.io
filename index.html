@@ -53,7 +53,9 @@
 
                   Odyssey is a mesmerizing jazz hip-hop track with interwoven keyboard, guitar, and saxophone lines played by me. Rapper N.O. and singer Asia Lechelle deliver stunning vocal performances as well. 
 
-                  Harvester is a moody post-dubstep track influenced by artists like Burial. It features a patchwork of chopped vocal samples pierced by a tracey supersaw lead. 
+                  Wicker is an organic DnB track built from bouncy piano chops and layered pads. It features my own processed vocals throughout the track. 
+
+                  Harvester is a moody post-dubstep track influenced by early-2010's electronic artists like Burial. It features a patchwork of chopped vocal samples pierced by a tracey supersaw lead. 
 
                   Finally, Still Alive is a glitchy alternative hip-hop track starring Indianapolis vocalists Austin Keough and Arie Keough, produced using samples of my own keyboard and drum playing processed with a granular synthesizer.<br /> 
 
@@ -160,8 +162,6 @@
           <span class="caret" onclick="loadNosebleedsSongs()">NOSEBLEEDS (2025)</span>
           <ul id="nosebleedsSongsUL" class="nested">
 
-            <div id="nosebleedsSongsGrid" class="grid-container"></div>
-
             <li>
               <div class="notes">
 
@@ -264,7 +264,7 @@
     }
 
     function loadFullSongs() {
-      var fullSongsFilenames = ["audio/songs/full_songs/0_false_spring.wav","audio/songs/full_songs/1_cantsleep.wav","audio/songs/full_songs/2_odyssey.wav","audio/songs/full_songs/3_power.wav","audio/songs/full_songs/4_harvester.wav","audio/songs/full_songs/5_still_alive.wav"];
+      var fullSongsFilenames = ["audio/songs/full_songs/0_false_spring.wav","audio/songs/full_songs/1_cantsleep.wav","audio/songs/full_songs/2_odyssey.wav","audio/songs/full_songs/3_wicker.wav","audio/songs/full_songs/4_harvester.wav","audio/songs/full_songs/5_still_alive.wav"];
 
       if (!document.querySelector("#fullSongsUL").classList.contains("active")) {
         //section is hidden
@@ -359,15 +359,6 @@
       if (!document.querySelector("#domineSongsUL").classList.contains("active")) {
         //section is hidden
         songLoader(domineSongsFilenames,"#domineSongsGrid")
-      }
-    }
-
-    function loadNoseBleedsSongs() {
-      var nosebleedsSongsFilenames = ["audio/released_music/nosebleeds/entrada","audio/released_music/nosebleeds/harvester","audio/released_music/nosebleeds/tribunal","audio/released_music/nosebleeds/soulcry","audio/released_music/nosebleeds/falsespring",];
-
-      if (!document.querySelector("#nosebleedsSongsUL").classList.contains("active")) {
-        //section is hidden
-        songLoader(nosebleedsSongsFilenames,"#nosebleedsSongsGrid")
       }
     }
 
