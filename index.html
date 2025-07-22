@@ -21,6 +21,7 @@
 
          <div id="videos">
           <div class="scrolling-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bjBz08fahJM?si=efjkq81krsiOla5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/UfP34sL8D8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/o_3KnEnMsig?si=oisxQryF_IcULoIf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/HkzpIfkM2B8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -44,7 +45,17 @@
               <li>
                 <div class="notes">
 
-                  This is a selection of tracks, produced entirely by me, that I feel fairly represents the range of my production style. Tiptoe is a post-dubstep track inspired by artists like James Blake, Burial, and Flume. It represents the latest sound I’ve been exploring–expect more of this style from me in the near future. TunnelVision is a synth-driven pop R&B track featuring the phenomenal Indianapolis vocalists Asia Lechelle and Chris Shye. You've Got everything is a UK Garage-inspired track with energetic drum patterns and vocal chops sampled from Asia Lechelle and Nifemi Oshoniyi. Disaster! is an alternative R&B track with drum and bass influences featuring myself on vocals. Finally, Still Alive is a glitchy alternative hip-hop track starring Indianapolis vocalists Austin Keough and Arie Keough. <br /> 
+                  This is a selection of tracks, produced entirely by me, that I feel fairly represents the range of my production style. 
+
+                  False Spring is my most recent single. It pulls heavily from IDM artists like Boards of Canada, and features a collage of synth sounds I created using a Behringer DeepMind 12. 
+
+                  Cantsleep is a UK Garage-inspired track with industrial drum sounds and a soaring synth lead. 
+
+                  Odyssey is a mesmerizing jazz hip-hop track with interwoven keyboard, guitar, and saxophone lines played by me. Rapper N.O. and singer Asia Lechelle deliver stunning vocal performances as well. 
+
+                  Harvester is a moody post-dubstep track influenced by artists like Burial. It features a patchwork of chopped vocal samples pierced by a tracey supersaw lead. 
+
+                  Finally, Still Alive is a glitchy alternative hip-hop track starring Indianapolis vocalists Austin Keough and Arie Keough, produced using samples of my own keyboard and drum playing processed with a granular synthesizer.<br /> 
 
                 </div>
                 <br />
@@ -146,15 +157,15 @@
         <br>
 
         <li>
-          <span class="caret" onclick="loadCloseSong()">Close (2023)</span>
-          <ul id="closeSongUL" class="nested">
+          <span class="caret" onclick="loadNosebleedsSongs()">NOSEBLEEDS (2025)</span>
+          <ul id="nosebleedsSongsUL" class="nested">
 
-            <div id="closeSongGrid" class="grid-container"></div>
+            <div id="nosebleedsSongsGrid" class="grid-container"></div>
 
             <li>
               <div class="notes">
 
-                Close is a bedroom pop & UK-Garage inspired single co-produced by Ari Jonathan and featuring vocals from Umami Bee. Stream it <a href=https://linktr.ee/jakub_domine style="color:#0000FF">here</a>! <br /> 
+                NOSEBLEEDS is my most recent EP. Stream it <a href=https://linktr.ee/jakub_domine style="color:#0000FF">here</a>! <br /> 
 
               </div>
               <br />
@@ -182,7 +193,7 @@
         </li>
 
         <li>
-          <span class="caret" onclick="loadDomineSongs()">Jakub Dominé (2020)</span>
+          <span class="caret" onclick="loadDomineSongs()">Dominé (2020)</span>
           <ul id="domineSongsUL" class="nested">
 
             <div id="domineSongsGrid" class="grid-container"></div>
@@ -253,7 +264,7 @@
     }
 
     function loadFullSongs() {
-      var fullSongsFilenames = ["audio/songs/full_songs/0_tiptoe.wav","audio/songs/full_songs/1_tunnelvision.wav","audio/songs/full_songs/2_youve_got_everything.wav","audio/songs/full_songs/3_power.wav","audio/songs/full_songs/4_disaster!.wav","audio/songs/full_songs/5_still_alive.wav"];
+      var fullSongsFilenames = ["audio/songs/full_songs/0_false_spring.wav","audio/songs/full_songs/1_cantsleep.wav","audio/songs/full_songs/2_odyssey.wav","audio/songs/full_songs/3_power.wav","audio/songs/full_songs/4_harvester.wav","audio/songs/full_songs/5_still_alive.wav"];
 
       if (!document.querySelector("#fullSongsUL").classList.contains("active")) {
         //section is hidden
@@ -348,6 +359,15 @@
       if (!document.querySelector("#domineSongsUL").classList.contains("active")) {
         //section is hidden
         songLoader(domineSongsFilenames,"#domineSongsGrid")
+      }
+    }
+
+    function loadNoseBleedsSongs() {
+      var nosebleedsSongsFilenames = ["audio/released_music/nosebleeds/entrada","audio/released_music/nosebleeds/harvester","audio/released_music/nosebleeds/tribunal","audio/released_music/nosebleeds/soulcry","audio/released_music/nosebleeds/falsespring",];
+
+      if (!document.querySelector("#nosebleedsSongsUL").classList.contains("active")) {
+        //section is hidden
+        songLoader(nosebleedsSongsFilenames,"#nosebleedsSongsGrid")
       }
     }
 
